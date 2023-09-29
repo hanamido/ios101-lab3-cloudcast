@@ -13,6 +13,8 @@ struct WeatherForecast {
     let temperature: Double
     let date: Date
     let weatherCode: WeatherCode
+    let windSpeed: Double
+    let precipitation: Double
 }
 
 // enum is a collection of related values
