@@ -61,36 +61,38 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCa-99-igj">
-                                <rect key="frame" x="11" y="334" width="37.333333333333336" height="34.333333333333314"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRr-3Q-diF">
+                                <rect key="frame" x="16.000000000000004" y="334" width="37.333333333333343" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="◀"/>
                                 <connections>
-                                    <action selector="didTapBackButton:" destination="Kiu-tk-hjJ" eventType="touchUpInside" id="tEn-Cu-QUp"/>
+                                    <action selector="didTapBackButton:" destination="Kiu-tk-hjJ" eventType="touchUpInside" id="A2S-zD-VTQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPN-z4-RJ1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4v-th-tQc">
                                 <rect key="frame" x="339.66666666666669" y="334" width="37.333333333333314" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="▶"/>
                                 <connections>
-                                    <action selector="didTapForwardButton:" destination="Kiu-tk-hjJ" eventType="touchUpInside" id="GEi-9t-cEx"/>
+                                    <action selector="didTapForwardButton:" destination="Kiu-tk-hjJ" eventType="touchUpInside" id="oon-8l-joX"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1RW-AJ-M1n"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bCa-99-igj" firstAttribute="leading" secondItem="1RW-AJ-M1n" secondAttribute="leading" constant="11" id="0o4-SI-LBR"/>
-                            <constraint firstItem="VPN-z4-RJ1" firstAttribute="centerY" secondItem="DrP-ug-Z0Y" secondAttribute="centerY" constant="-75" id="EgZ-vr-Q2v"/>
+                            <constraint firstItem="q4v-th-tQc" firstAttribute="centerY" secondItem="DrP-ug-Z0Y" secondAttribute="centerY" constant="-75" id="2dX-bY-wfr"/>
+                            <constraint firstItem="q4v-th-tQc" firstAttribute="leading" secondItem="1RW-AJ-M1n" secondAttribute="leading" constant="339.67000000000002" id="CHM-cl-y7P"/>
                             <constraint firstItem="1I4-Cx-bME" firstAttribute="leading" secondItem="box-kF-w1U" secondAttribute="trailing" constant="2" id="HtT-N7-cNe"/>
-                            <constraint firstItem="1RW-AJ-M1n" firstAttribute="trailing" secondItem="VPN-z4-RJ1" secondAttribute="trailing" constant="16" id="Kb9-Hw-TxO"/>
-                            <constraint firstItem="bCa-99-igj" firstAttribute="centerY" secondItem="DrP-ug-Z0Y" secondAttribute="centerY" constant="-75" id="Laj-k3-WVk"/>
+                            <constraint firstItem="1RW-AJ-M1n" firstAttribute="trailing" secondItem="dRr-3Q-diF" secondAttribute="trailing" constant="339.67000000000002" id="YeE-zv-pnw"/>
                             <constraint firstItem="5kF-aS-Pol" firstAttribute="top" secondItem="1I4-Cx-bME" secondAttribute="bottom" constant="75" id="hdk-RM-pFl"/>
                             <constraint firstItem="5kF-aS-Pol" firstAttribute="centerX" secondItem="DrP-ug-Z0Y" secondAttribute="centerX" id="iLP-c0-cwK"/>
                             <constraint firstItem="1I4-Cx-bME" firstAttribute="centerX" secondItem="DrP-ug-Z0Y" secondAttribute="centerX" id="j94-nX-ty7"/>
                             <constraint firstItem="box-kF-w1U" firstAttribute="top" secondItem="1RW-AJ-M1n" secondAttribute="top" constant="20" id="m9g-r4-rdH"/>
+                            <constraint firstItem="dRr-3Q-diF" firstAttribute="centerY" secondItem="DrP-ug-Z0Y" secondAttribute="centerY" constant="-75" id="pT8-HQ-4la"/>
+                            <constraint firstItem="dRr-3Q-diF" firstAttribute="leading" secondItem="1RW-AJ-M1n" secondAttribute="leading" constant="16" id="tIl-vi-la7"/>
                             <constraint firstItem="1I4-Cx-bME" firstAttribute="top" secondItem="1RW-AJ-M1n" secondAttribute="top" constant="20" id="wXi-AW-QkD"/>
+                            <constraint firstItem="1RW-AJ-M1n" firstAttribute="trailing" secondItem="q4v-th-tQc" secondAttribute="trailing" constant="16" id="xbC-UB-Cb2"/>
                         </constraints>
                     </view>
                     <connections>
